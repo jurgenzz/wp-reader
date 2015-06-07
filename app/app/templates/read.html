@@ -1,0 +1,18 @@
+<ion-view view-title="{{author.name}}">
+  <ion-content>
+	<h1 class="title"></h1>
+		<div class="list card" ng-repeat="post in posts">
+			<a ng-href="#/app/post/{{blogs}}/{{post.ID}}">
+		<div class="item">
+			<h2 ng-bind-html="post.title"></h2>
+			
+		</div>
+			</a>
+
+	</div>
+
+	<a ng-href="#/app/list/{{nextPage}}/{{blogs}}" class="button button-block button-outline button-balanced">Next Page</a>
+	<a ng-href="#/app/list/{{prevPage}}/{{blogs}}" class="button button-block button-outline button-positive">Previous Page</a>
+
+  </ion-content>
+</ion-view>

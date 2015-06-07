@@ -1,0 +1,20 @@
+<ion-view view-title="All blogs">
+	<ion-content>
+		<ion-refresher
+    pulling-text="Pull to refresh..."
+    on-refresh="doRefresh()">
+  </ion-refresher>
+		<div class="list" ng-repeat="project in projects">
+			<a class="item" ng-href="#/app/list/0/{{project.site}}">
+
+				<h2 ng-model="postUrl">{{project.name}}</h2>
+				<p>{{project.site}}</p>
+				<a ng-href="#/edit/{{project.$id()}}"><i class="glyphicon glyphicon-edit"></i></a>
+			</a>
+		</div>
+		<div class="well">
+			<a class="button button-block button-outline button-balanced" ng-href="#/app/new">Add blogs</a>
+		</div>
+
+	</ion-content>
+</ion-view>

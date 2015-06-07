@@ -1,0 +1,22 @@
+<ion-view view-title="Add blogs">
+	<ion-content>
+
+
+		<form ng-submit="save()">
+			<div class="list list-inset">
+				<label class="item item-input">
+					<span class="input-label">Blog Title</span>
+					<input type="text" placeholder="Title" ng-model="project.name">
+				</label>
+			</div>
+			<div class="list list-inset">
+				<label class="item item-input">
+					<span class="input-label">http://</span>
+					<input type="text" placeholder="Url" ng-model="project.site">
+				</label>
+			</div>
+			<button class="button button-block button-positive" type="submit">Add Blog</button>
+		</form>
+
+	</ion-content>
+</ion-view>

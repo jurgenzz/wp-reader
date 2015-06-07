@@ -1,0 +1,19 @@
+<ion-view view-title="Confirm Email">
+	<ion-content>
+		<form ng-submit="start()">
+			<div class="list list-inset">
+				<label class="item item-input">
+					<span class="input-label">Name</span>
+					<input type="text" placeholder="name" ng-model="signUp.name">
+				</label>
+				<label class="item item-input">
+					<span class="input-label">Email</span>
+					<input type="text" placeholder="email" ng-model="signUp.mail">
+				</label>
+			</div>
+			<button class="button button-block button-positive" type="submit">Confirm email</button>
+		</form>
+
+		<a href="#/app/list" class="button button-block button-positive">Blogs</a>
+	</ion-content>
+</ion-view>
