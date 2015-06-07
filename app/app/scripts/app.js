@@ -21,7 +21,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'mongolabResourceHttp
 })
 
 .constant('MONGOLAB_CONFIG', {
-	API_KEY: 'i5ZGcWWo8ZETYC-mXpT0UdXq1awqkfwZ',
+	API_KEY: '---YOUR MONGO API KEY----',
 	DB_NAME: 'wp-reader'
 })
 
