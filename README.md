@@ -24,3 +24,5 @@ And add you API key in app.js
 # Demo
 
 http://theoneyouarelookingfor.com/app/
+
+Enter your email, after that you can add blogs (<blogname>.wordpress.com). Your added blogs will be synced with your email adress. Page refresh might be needed to see new blogs
