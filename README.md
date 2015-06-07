@@ -1,6 +1,7 @@
 # wp-reader
 Android hybrid app for reading wp blogs
 
+uses ionicframework
 
 # Not done yet
 
